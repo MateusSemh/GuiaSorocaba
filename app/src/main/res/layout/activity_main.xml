@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="391dp"
+        android:layout_height="805dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:src="@mipmap/sorocabaguia" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="40dp"
+                android:text="Hamburgueira BLACKOUT"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/btnImgBlackout"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:src="@mipmap/blackout" />
+
+            <Button
+                android:id="@+id/btnBlackout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableRight="@drawable/baseline_arrow_forward_24"
+                android:text="Saiba Mais"
+                app:cornerRadius="1dp" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="40dp"
+                android:text="Pizzaria Ramal 10"
+                android:textSize="34sp" />
+
+            <ImageButton
+                android:id="@+id/btnImgRamal"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:src="@mipmap/ramal" />
+
+            <Button
+                android:id="@+id/btnRamal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableRight="@drawable/baseline_arrow_forward_24"
+                android:text="Saiba Mais"
+                app:cornerRadius="1dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="40dp"
+                android:text="Sorveteria Puro Gelato"
+                android:textSize="34sp" />
+
+            <ImageButton
+                android:id="@+id/btnImgGelato"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/purogelato" />
+
+            <Button
+                android:id="@+id/btnGelato"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:drawableRight="@drawable/baseline_arrow_forward_24"
+                android:text="Saiba Mais"
+                app:cornerRadius="1dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Todos os direitos reservados"
+                android:textSize="8sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
